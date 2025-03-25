@@ -1,0 +1,53 @@
+# Day 0 - Kickstarting the Journey
+  
+#🧑‍💻 My Coding Background
+I’m a C developer familiar with the basics of programming, including variables, loops, conditionals, and functions.
+I’ve already built small projects in C like:
+Tic-Tac-Toe game,
+Menu-driven programs.
+Simple file handling projects
+
+Now I’m starting my journey into Data Structures and Algorithms (DSA) and competitive coding to gear up for college placements.
+This repository will serve as a daily log of my learning, growth, and problem-solving progress.
+
+# Today’s Milestone: LeetCode Problem #9 - Palindrome Number
+🔗 Problem Link
+https://leetcode.com/problems/palindrome-number/description/
+
+# Thought Process
+First, I checked if the number is negative — if yes, it’s not a palindrome.
+Then, I stored the original number to compare later.
+I reversed the number using mathematical operations:
+Get the last digit using n % 10
+Build the reverse number by shifting the current digits using multiplication
+Finally, I compared the reversed number with the original number.
+
+
+# What I Learned
+How to reverse a number using math.
+How to handle edge cases like negative numbers.
+How simple problems still need a good grip on logic.
+
+# Plan for Tomorrow
+Research and pick a DSA playlist/channel on YouTube to follow regularly.
+Start revising core DSA topics (arrays, strings, etc.).
+Solve at least 1 more problem and document it here.
+This is a great start! Let me know if you'd like to make a template for Day1, Day2, etc., so you can just fill it in quickly each day.
+
+
+
+
+
+
+
+
+
+
+
+
+Search
+
+Deep research
+
+
+ChatGPT can make mistake
