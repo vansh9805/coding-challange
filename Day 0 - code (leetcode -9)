@@ -1,0 +1,25 @@
+#Day 0 leet code problem solution 
+
+#problem link - https://leetcode.com/problems/palindrome-number/description/
+
+# My soluyion in C 
+
+bool isPalindrome(int n) {
+    if (n < 0) {
+        return false;
+    }
+
+    int original = n;
+    double rev_num = 0;
+
+    while (n != 0) {
+        rev_num = rev_num * 10 + n % 10;
+        n /= 10;
+    }
+
+    if (original == rev_num) {
+        return true;
+    } else {
+        return false;
+    }
+}
