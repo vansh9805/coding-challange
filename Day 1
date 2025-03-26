@@ -1,0 +1,52 @@
+# Day 1 – Continuing the Grind
+
+## Learning Track  
+Today, I selected the **Love Babbar DSA Playlist** to follow on YouTube:  
+🔗 [Love Babbar DSA Sheet + Playlist](https://www.youtube.com/playlist?list=PLDzeHZWIZsTryvtXdMr6rPh4IDexB5NIA)  
+I’ll begin watching it tomorrow as I start revising core DSA topics step-by-step.
+
+Note: I haven't studied Data Structures and Algorithms (DSA) yet, so for now, I’m only solving **math-based problems** on LeetCode that rely on logic and basic programming.
+Once I gain confidence and understanding in DSA topics, I’ll shift to solving array, string, and recursion problems.
+
+
+##  Solved LeetCode Problems
+
+###  Problem 1: [231. Power of Two](https://leetcode.com/problems/power-of-two/)
+
+###  My Approach
+- First, I checked for edge cases:
+  - If `n == 1`, return true.
+  - If `n <= 0`, return false.
+- Then I used a loop to repeatedly divide `n` by 2.
+- If at any point `n` is not divisible by 2, it’s not a power of two.
+- If the loop ends cleanly, `n` is a power of two.
+
+###  Time Complexity:- O(log n) – because the number is divided by 2 in each step.
+
+###  Space Complexity:- O(1) – no extra space is used.
+
+###  Notes: I’m not familiar with DSA optimizations yet, but I’ll revisit this problem later after learning bit manipulation and other techniques.
+
+
+###  Problem 2: [69. Sqrt(x)](https://leetcode.com/problems/sqrtx/)
+
+###  My Approach
+- I handled base cases for 0 and 1.
+- Then, I used a brute-force method to check numbers from 1 to x/2.
+- For each number, I checked whether it had crossed the square root condition.
+- Returned the integer part of the square root.
+
+### Time Complexity:- O(n) – linear loop up to `x/2`.
+
+###  Space Complexity:- O(1) – no additional space required.
+
+###  Learning Experience:
+Initially, I tried a more mathematical method using logarithms and exponentiation with Taylor series to get an accurate answer, but it became too complicated.  
+I switched to this simple approach for now and will revisit it later using binary search once I learn it.
+
+
+##  Plan for Tomorrow
+- Start Love Babbar DSA Playlist.
+- Solve 1–2 more LeetCode problems.
+- Try to improve today's solutions using more optimized techniques.
+- Keep updating this log daily!
