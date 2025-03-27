@@ -1,0 +1,32 @@
+## Day 2 – Arrays Kickoff & LeetCode Grind
+
+Learning Track: Love Babbar DSA Playlist
+🔗 Love Babbar – Arrays (YouTube)
+
+##Topics Covered Today:
+From the first video on Arrays, I revised the following key concepts:
+
+What arrays are and how they are stored in memory (contiguous blocks).
+Traversal, insertion, and deletion basics.
+Indexing and access operations.
+Common pitfalls like out-of-bound errors.
+Use cases and limitations of arrays in problem-solving.
+Tomorrow, I will continue with the array theory from Love Babbar’s playlist and try to solve array-based problems on LeetCode to apply what I’ve learned.
+
+## LeetCode Practice
+
+1. Climbing Stairs (Problem 70)
+
+Approach: Switched from a recursive solution to an iterative Fibonacci-style solution to avoid runtime errors for large inputs.
+Time Complexity: O(n)
+Space Complexity: O(1)
+Difficulty: Easy
+Reflection: Realized that recursion can lead to stack overflow for larger values of n. Iterative solutions are more efficient in such cases.
+
+2. Pow(x, n) (Problem 50)
+
+Approach:Used binary (fast) exponentiation. Faced issues when n was negative or INT_MIN, so converted n to a long type to avoid overflow.
+Time Complexity: O(log n)
+Space Complexity: O(1)
+Difficulty: Medium
+Reflection: Took longer to debug. Learned how converting int to long helps handle edge cases, and how breaking down power operations into smaller chunks boosts efficiency.
