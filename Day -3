@@ -1,0 +1,46 @@
+## Day 3 – Arrays Practice & Complexity Concepts
+Learning Track: Love Babbar DSA Playlist
+🔗 Love Babbar – Arrays & Time-Space Complexity (YouTube)
+
+ ##Topics Covered Today:
+From today’s video, I focused on understanding Time and Space Complexity. Key takeaways:
+Time Complexity: Measures how the runtime of an algorithm grows with input size. Notations include:
+O(1) – Constant
+O(n) – Linear
+O(log n) – Logarithmic
+O(n²), O(n³) – Polynomial growth
+
+Space Complexity: Measures how much extra memory (besides input) the algorithm uses.
+Recursive functions often increase space complexity due to call stack usage.
+In-place operations help reduce space usage to O(1).
+Learned how to identify the best, average, and worst-case complexities for a given problem.
+Understood how nested loops multiply time complexity.
+Tomorrow, I’ll continue with the Arrays playlist and tackle more LeetCode problems to strengthen my understanding.
+
+## LeetCode Practice
+1. Remove Duplicates from Sorted Array
+  🔗 Problem Link - https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+Approach: Used a two-pointer technique where one pointer iterated through the array and the other kept track of unique values. 
+The challenge was handling the last unique element, which didn’t have a next element for comparison. Solved this by explicitly checking when at the last index.
+Time Complexity: O(n)
+Space Complexity: O(1) (in-place)
+Difficulty: Easy
+
+Reflection:
+Initially missed including the last number.
+Understood the importance of handling edge conditions.
+The two-pointer method is efficient and intuitive for such array modification problems.
+
+2. Two Sum
+🔗 Problem Link - https://leetcode.com/problems/two-sum/description/
+Approach: Used a brute-force method with nested loops to check all possible pairs. Implemented dynamic memory allocation (malloc) to return the result indices.
+Time Complexity: O(n²)
+Space Complexity: O(1) (excluding return array)
+Difficulty: Easy
+Reflection:Faced difficulty understanding dynamic memory allocation and how to return arrays from functions.
+Learned how malloc and pointers work in C for returning multiple values.
+Plan to try a hash map–based optimized approach next time for better efficiency.
+
+##Tomorrow's plan
+  Tomorrow, I’ll begin learning about STL in C++, especially focusing on vectors, so I can switch to coding in C++ for future LeetCode problems.
+  This will help me write cleaner and more efficient code with built-in support for dynamic data structures.
