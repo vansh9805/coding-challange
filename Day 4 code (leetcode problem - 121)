@@ -1,0 +1,15 @@
+problem - Best time to buy and sell stock
+link - https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
+
+solution - 
+
+int maxProfit(int* prices, int pricesSize) {
+    int profit;
+    for(int i = 0 ; i < pricesSize ; i++) {
+        for (int j = i ; j < pricesSize ; j++)
+            if (prices[j]-prices[i]  > profit){
+                profit = prices[j]-prices[i];
+            }
+    }
+    return profit;
+    }  
