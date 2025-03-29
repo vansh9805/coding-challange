@@ -1,0 +1,34 @@
+##Day 4 – Arrays Practice Continued (No New Concepts)
+Even though I didn’t learn any new topics today, I focused entirely on sharpening my understanding of array problems by solving three LeetCode problems. While solving them, I ran into multiple issues with TLE (Time Limit Exceeded) errors, which pushed me to think more critically about optimizing my code. Altering my initial brute-force or naive logic was a recurring challenge today.
+
+##LeetCode Problems Solved:
+
+283. Move Zeroes
+🔗 Problem Link – https://leetcode.com/problems/move-zeroes/
+Approach: I used an auxiliary array to store non-zero elements and then filled the remaining array with zeroes.
+Time Complexity: O(n)
+Space Complexity: O(n) (not in-place)
+Reflection: Faced TLE with naive approaches before settling on this one.
+Will revisit this to write a true in-place solution using the two-pointer approach.
+
+121. Best Time to Buy and Sell Stock
+🔗 Problem Link – https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/
+Approach: Tracked the minimum price seen so far and calculated max profit at each step in a single pass.
+Time Complexity: O(n)
+Space Complexity: O(1)
+Reflection: Initially overcomplicated the logic, leading to poor performance.
+Realized the importance of tracking min price and current profit simultaneously.
+This approach worked efficiently and passed all test cases.
+
+167. Two Sum II – Input Array is Sorted
+🔗 Problem Link – https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
+Approach: Used the two-pointer technique leveraging the sorted nature of the array to optimize over brute-force.
+Time Complexity: O(n)
+Space Complexity: O(1)
+Reflection: Faced confusion with pointer logic and return handling in C.
+Initially tried brute-force, which led to TLE.
+Switched to two-pointer, which solved the problem efficiently.
+
+##Tomorrow’s Plan:
+I’ll begin learning STL in C++, starting with vectors, so I can transition to solving future problems in C++.
+STL will also help with cleaner syntax, dynamic memory management, and more efficient code writing
