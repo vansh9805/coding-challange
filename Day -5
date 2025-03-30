@@ -1,0 +1,35 @@
+##Day 5 – STL Introduction and Continued Practice
+Today, I started learning the basics of STL in C++ from video(https://youtu.be/WgMPrLX-zsA?si=Vv_tZ0KQXVEAr_Ob)
+I plan to complete the full tutorial tomorrow.
+I also officially enrolled in the GeeksforGeeks 160 Days Coding Challenge and committed to solving at least one question from it daily, alongside my LeetCode practice.
+I solved one LeetCode problem and one GFG challenge problem today, focusing on mastering foundational concepts and writing clean, efficient code.
+
+LeetCode Problem Solved:
+75. Sort Colors
+🔗 Problem Link – https://leetcode.com/problems/sort-colors/
+
+Approach: Used counting sort strategy:
+Count the number of 0s, 1s, and 2s in the array.
+Overwrite the original array in order: first all 0s, then 1s, then 2s.
+Time Complexity: O(n) – Two passes through the array.
+Space Complexity: O(1) – No extra space apart from counters.
+Reflection: Opted for a simple counting-based implementation as the first step to internalize the problem.
+Plan to revisit with the Dutch National Flag Algorithm using two pointers for an in-place and single-pass solution.
+
+GFG 160 Days Challenge – Day 1 Question:
+Find Second Largest Number
+🔗 Problem Link – https://www.geeksforgeeks.org/problems/second-largest3735/1
+
+Approach: First, find the maximum element.
+Replace all occurrences of the max with INT_MIN in a new array.
+Then, find the new maximum (which is the second largest).
+Added a final check to ensure there's at least one distinct value.
+Time Complexity: O(n) – Three passes through the array.
+Space Complexity: O(n) – Used an auxiliary vector to store modified values.
+Reflection: Took a verbose but logical approach to ensure I captured edge cases like duplicate maximum values. 
+This can be optimized further with a single-pass logic to find both max and second max.
+
+Tomorrow’s Plan:
+Complete STL video tutorial.
+Start solving problems using vectors and other STL containers.
+Continue solving 1 GFG + 1–2 LeetCode problems per day.
