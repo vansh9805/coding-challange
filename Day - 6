@@ -1,0 +1,17 @@
+Day 6 – Continued STL Learning and Debugging Practice
+Today, I continued learning STL in C++ using Love Babbar's tutorial. 
+Focused on understanding the core STL containers like vectors, sets, and maps, and practiced basic operations on them.
+
+LeetCode Problem Attempted:
+ 238. Product of Array Except Self
+🔗 Problem Link – https://leetcode.com/problems/product-of-array-except-self/
+
+Reflection:
+I implemented a brute-force approach that calculates the product for each index by skipping the current one.
+Although the logic was correct, it caused a Time Limit Exceeded (TLE) due to its O(n²) time complexity.
+I learned that such nested loops are inefficient for large arrays and realized I need to explore a better approach using prefix and suffix products.
+
+Tomorrow’s Plan:
+Reattempt this problem using an optimized O(n) solution with prefix/suffix arrays or constant space.
+Practice STL vector and map-based problems.
+Continue 1 GFG + 1–2 LeetCode problems daily.
