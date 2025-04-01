@@ -1,0 +1,38 @@
+##Day 7 – Problem Solving and Sliding Window Introduction
+Today, I revisited and successfully solved the LeetCode problem 238 (Product of Array Except Self), which I previously attempted with a brute-force approach that caused a TLE.
+I also practiced array manipulation on GFG and explored prefix/suffix logic and sliding window techniques through an attempt on LeetCode 560.
+
+## Problems Solved:
+
+1. LeetCode 238. Product of Array Except Self
+Approach:
+Handled three cases using a single traversal:
+More than one zero → all output elements = 0
+Exactly one zero → only the zero position has the product of non-zero elements
+No zeros → total product divided by each element
+Time Complexity: O(n)
+Space Complexity: O(n) (used an auxiliary array)
+
+2. GFG – Reverse an Array
+Approach: Used a temporary array to reverse elements and copied them back to the original.
+Time Complexity: O(n)
+Space Complexity: O(n)
+
+3. LeetCode 560. Subarray Sum Equals K – Attempted
+Approach Used: Tried all possible subarrays using nested loops and a window-style optimization.
+Issue: Time Limit Exceeded due to O(n²) approach.
+Learning: Discovered the need for prefix sum + hashmap for an optimal solution (O(n)).
+
+## Concepts Learned:
+Improved understanding of STL containers like vectors and maps.
+Practiced prefix/suffix product techniques to reduce space/time complexity.
+Introduced to the sliding window technique – realized it is ideal for fixed or variable-length subarray problems.
+
+## Reflection:
+Learned that brute-force approaches are helpful for learning but not for efficiency.
+Sliding window and prefix-sum + hash map techniques are powerful tools for subarray problems.
+Need to reattempt LeetCode 560 using an efficient solution tomorrow.
+
+## Tomorrow’s Plan:
+Reattempt LeetCode 560 using prefix sum + hashmap (O(n) approach).
+Practice 1 GFG + 1–2 LeetCode problems.
