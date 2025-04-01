@@ -1,0 +1,18 @@
+Problem - 3. Reverse an Array
+link - https://www.geeksforgeeks.org/batch/gfg-160-problems/track/arrays-gfg-160/problem/reverse-an-array
+
+solution - 
+  
+class Solution {
+  public:
+    void reverseArray(vector<int> &arr) {
+        int size = arr.size();
+        int rev_arr[size];
+        for (int i = 0; i < size ; i++){
+            rev_arr[size-i-1] = arr[i];
+        }
+        for(int i = 0 ; i < size ; i++){
+            arr[i] = rev_arr[i];
+        }
+    }
+};
