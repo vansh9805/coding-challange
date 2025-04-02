@@ -1,0 +1,45 @@
+##Day 8 – Array Rotation, Prefix Sums, and Continued Practice
+Today, I focused on strengthening my understanding of array manipulation and prefix sum applications.
+
+## Problems Solved:
+
+1. LeetCode 189. Rotate Array
+Approach: Used a temporary array to rotate elements by k positions.
+Handled wrap-around using modulus.
+Copied final values back to the original array.
+Time Complexity: O(n)
+Space Complexity: O(n)
+
+2. GFG – Rotate Array (Day 4)
+Approach: Used a temporary array to rotate elements by d positions to the left.
+Copied rearranged values back into the original array.
+Time Complexity: O(n)
+Space Complexity: O(n)
+
+3. LeetCode 303. Range Sum Query – Immutable
+Approach: Implemented a class with an internal vector copy.
+Used a loop-based approach to calculate the sum from left to right on each query.
+Time Complexity: O(n) per query
+Space Complexity: O(n)
+
+  Problem Attempted:
+4. LeetCode 560. Subarray Sum Equals K (Retry Pending)
+Attempted yesterday with a brute-force + window-style approach → TLE.
+Plan to reattempt tomorrow using the prefix sum + hashmap method for O(n) time.
+
+
+## Concepts Practiced:
+1. Array rotation using auxiliary arrays
+2. Handling modulo arithmetic for cyclic shifts
+3. Range queries with simple traversal
+4. More hands-on experience with class design and encapsulation in C++
+
+## Reflection:
+1. Seeing similar rotation patterns in LeetCode and GFG helped reinforce the logic.
+2. Realized the importance of handling edge cases (e.g., k == 0, single-element arrays).
+3. Range query logic is clear now; optimization will come next.
+4. Still need to strengthen hash map usage for subarray problems like LeetCode 560.
+
+## Tomorrow’s Plan:
+1. Solve 1 GFG + 1–2 LeetCode problems
+2. learn some new topics
