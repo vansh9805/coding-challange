@@ -1,0 +1,27 @@
+Problem - 189.Rotate array
+link - https://leetcode.com/problems/rotate-array/
+
+solution - 
+
+void rotate(int* nums, int numsSize, int k) {
+    int arr[numsSize];  
+    k = k % numsSize;
+    int a = k;
+
+    if (numsSize > 1 && k != 0) {
+
+        for (int i = 0; i < numsSize; i++) {
+            if (i + k >= numsSize) {
+                arr[i + k - numsSize] = nums[i];  
+            }
+            if (i + k < numsSize) {
+                arr[a] = nums[i];
+                a++;
+            }
+        }
+
+        for (int i = 0; i < numsSize; i++) {
+            nums[i] = arr[i];
+        }
+    }
+}
