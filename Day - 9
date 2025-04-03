@@ -1,0 +1,32 @@
+##Day 9 – Cracked Next Permutation!
+Today, I focused entirely on solving LeetCode 31 – Next Permutation, which also happened to be the GFG Day 5 problem.
+
+##Problem Solved:
+
+LeetCode 31 / GFG Day 5 – Next Permutation
+Approach: Implemented the logic using only for loops — no STL or helper functions
+Understood how to find the pivot (first decreasing element from right)
+Swapped it with the next larger element on the right
+Then bubble-sorted the suffix manually
+Also explored how to detect the last permutation using a reversed copy
+
+Time Complexity: O(n²) (due to bubble sort)
+Space Complexity: O(n) (temporary array to detect last permutation)
+
+## Concepts Practiced:
+Finding the pivot (arr[i] < arr[i+1])
+Swapping with the next larger element on the right
+Sorting the suffix to get the next smallest permutation
+Edge case: already highest permutation → reset to lowest
+Doing it all without STL — helped build low-level confidence
+
+## Reflection:
+This was one of the hardest problems I’ve solved so far.
+As a beginner still learning many topics, it felt intimidating — but solving it manually helped a lot.
+I now understand why the algorithm works — not just how.
+It's okay to spend a full day on a tough question — what matters is that I didn't give up.
+
+## Tomorrow’s Plan:
+Try LeetCode 560 (Subarray Sum Equals K) again, but with prefix sum + hashmap
+Solve 1 additional LeetCode or GFG problem
+Light reading: Hash maps and sliding window patterns
