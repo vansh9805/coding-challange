@@ -1,0 +1,72 @@
+Problem - 31.Next permutation
+link - https://leetcode.com/problems/next-permutation/description/
+
+solution - 
+
+void nextPermutation(int* nums, int numsSize) {
+    int temp;
+    int new_start = 0;
+    bool flag = true;  
+    int vansh[numsSize];
+
+    // Copy original array to vansh
+    for (int i = 0; i < numsSize; i++) {
+        vansh[i] = nums[i];
+    }
+
+    // Sort vansh in descending order
+    for (int i = 0; i < numsSize - 1; i++) {
+        for (int j = 0; j < numsSize - 1 - i; j++) {
+            if (vansh[j] < vansh[j + 1]) {
+                temp = vansh[j];
+                vansh[j] = vansh[j + 1];
+                vansh[j + 1] = temp;
+            }
+        }
+    }
+
+    // Check if already the last permutation
+    flag = true;
+    for (int i = 0; i < numsSize; i++) {
+        if (nums[i] != vansh[i]) {
+            flag = false;
+            break;
+        }
+    }
+
+    // MAIN LOGIC
+    if (flag == true) {
+        new_start = 0;  
+    } else {
+        int i_found = -1;
+        for (int i = numsSize - 2; i >= 0; i--) {
+            if (nums[i] < nums[i + 1]) {
+                i_found = i;
+                break;
+            }
+        }
+
+        if (i_found != -1) {
+            for (int j = numsSize - 1; j > i_found; j--) {
+                if (nums[j] > nums[i_found]) {
+                    temp = nums[i_found];
+                    nums[i_found] = nums[j];
+                    nums[j] = temp;
+                    break;
+                }
+            }
+            new_start = i_found + 1;
+        }
+    }
+
+    // Sort in ascending order
+    for (int i = new_start; i < numsSize - 1; i++) {
+        for (int j = new_start; j < numsSize - 1 - (i - new_start); j++) {
+            if (nums[j] > nums[j + 1]) {
+                temp = nums[j];
+                nums[j] = nums[j + 1];
+                nums[j + 1] = temp;
+            }
+        }
+    }
+}
