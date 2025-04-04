@@ -1,0 +1,17 @@
+Day 10 – Almost Cracked Majority Element II (LC 229)
+Today, I tried solving LeetCode 229 – Majority Element II.
+While the problem wasn’t too difficult, I couldn’t complete it fully due to time constraints.
+
+Problem Attempted:
+LeetCode 229 – Majority Element II
+I understood the core idea — finding elements that appear more than ⌊n/3⌋ times.
+I nearly got the solution working but didn’t have enough time to debug and finalize it.
+
+Reflection:
+It’s okay to not complete a problem every day — what matters is that I showed up and gave it a try.
+I could recognize patterns from previous majority-element problems, which means my intuition is improving.
+Will revisit this problem tomorrow with a fresh mind.
+
+Tomorrow’s Plan:
+Finish solving LeetCode 229 completely.
+Read a bit more about the Boyer-Moore Voting Algorithm and its variants.
