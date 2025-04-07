@@ -1,0 +1,22 @@
+Problem - 829. Consecutive Numbers Sum
+
+solution - 
+
+int consecutiveNumbersSum(int n) {
+    int count = 0;
+        for (int w = 1; w * (w - 1) / 2 < n; w++) { 
+        for (int i = 1; i <= n; i++) {
+            long long sum = (long long)w * (2 * i + w - 1);
+            if (sum % 2 != 0){
+                continue;
+            } 
+            if (sum / 2 == n) {
+                count++;
+                break;
+            } else if (sum / 2 > n) {
+                break;
+            }
+        }
+    }
+    return count;
+}
