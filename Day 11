@@ -1,0 +1,31 @@
+##Day 11 – 3 Leetcode Problems Cracked!
+Today, I made solid progress by solving three LeetCode problems, each covering different problem-solving patterns — element removal, array manipulation, and math-based logic.
+
+Problems Solved:
+LeetCode 27 – Remove Element
+Approach: Used an extra array to filter out val from the input and rewrote the array in-place.
+Reflection: A basic but important problem to understand in-place operations and array manipulation.
+
+LeetCode 66 – Plus One
+Approach: Carefully handled the edge case where all digits are 9, using dynamic memory allocation and carrying over.
+Reflection: Great practice for understanding how to simulate basic arithmetic operations on arrays.
+
+LeetCode 829 – Consecutive Numbers Sum
+Approach: Nested loop approach with a mathematical formula to find valid sequences that sum up to n.
+Reflection: This was an interesting math-heavy question; helped me brush up on arithmetic progressions and constraints.
+
+Concepts Practiced:
+In-place array manipulation
+Carry propagation in arrays
+Edge case handling (e.g., all 9’s)
+Integer sequences and mathematical constraints
+Nested loops with optimization checks
+
+Reflection:
+Today felt productive — solving three problems gave me a confidence boost.
+Each one required a different mindset, and it felt good to switch contexts and keep going.
+I also noticed I’m getting faster at debugging C code and recognizing standard patterns.
+
+Tomorrow’s Plan:
+Revisit and complete LeetCode 229 – Majority Element II
+Try 1 new Leetcode problem involving sliding window or hash maps
