@@ -1,0 +1,23 @@
+Day 12 – Intro to 2D Arrays + One More LeetCode Problem Cracked!
+Today, I started learning 2D arrays and solidified the concept by solving a problem that required transposing a matrix — a perfect beginner-friendly challenge to understand how rows and columns work in memory.
+
+Problem Solved:
+LeetCode 867 – Transpose Matrix
+Approach:
+Learned how to flip the rows and columns of a 2D array.
+First implemented the logic using a local buffer array.
+Then restructured the code to allocate memory dynamically (malloc) as per LeetCode requirements.
+Carefully handled return values using pointer-to-pointer logic and correctly updated dimensions.
+
+Reflection:
+Helped me build confidence with 2D array syntax and pointer handling.
+Understood how nested loops work for matrix transformation.
+Practiced proper memory allocation and safe copying of array data.
+Today was a breakthrough — working with 2D arrays opened up a new dimension of problem-solving.
+The transpose logic made me think carefully about array bounds and memory layout.
+It was also a good chance to refine my understanding of function signatures involving pointers.
+
+Tomorrow’s Plan:
+Revisit and complete LeetCode 229 – Majority Element II
+Try a matrix-based problem 
+Continue practicing pointer logic with 2D arrays
